@@ -59,7 +59,7 @@ export default buildConfig({
       collections: [COLLECTION_SLUG_PAGE],
       generateURL: generateBreadcrumbsUrl,
       breadcrumbsFieldSlug: 'breadcrumbs'
-    }),
+    }),/* 
     s3StoragePlugin({
       ...S3_PLUGIN_CONFIG,
       collections: {
@@ -71,7 +71,7 @@ export default buildConfig({
           prefix: process.env.NEXT_PUBLIC_UPLOAD_PREFIX || 'media'
         }
       }
-    }),
+    }), */
     formBuilderPlugin({
       redirectRelationships: [COLLECTION_SLUG_PAGE],
       fields: {
