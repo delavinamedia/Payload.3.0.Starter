@@ -14,13 +14,13 @@ const nextConfig = {
         hostname: 'avatars.githubusercontent.com',
         port: '',
         pathname: '/u/**'
-      },
+      },/* 
       {
         protocol: 'https',
         hostname: process.env.NEXT_PUBLIC_S3_HOSTNAME,
         port: '',
         pathname: '/**'
-      }
+      } */
     ]
   },
   experimental: {
